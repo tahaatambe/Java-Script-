@@ -32,4 +32,4 @@ let userActivity = [
 let mostActiveUser = userActivity.reduce ((maxUser, user) => 
     user.activityCount > maxUser.activityCount ? user : maxUser
 )
-console.log(mostActiveUser)
+// console.log(mostActiveUser)
